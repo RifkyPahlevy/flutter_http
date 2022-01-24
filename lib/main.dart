@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:http_flutter/http_delete.dart';
+import 'package:http_flutter/http_future_builder.dart';
 import 'package:http_flutter/http_get.dart';
 import 'package:http_flutter/http_post.dart';
 import 'package:http_flutter/http_put_patch.dart';
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HttpDelete(),
+      home: FutureBuilderApp(),
     );
   }
 }
